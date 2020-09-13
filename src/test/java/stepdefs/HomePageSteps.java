@@ -1,8 +1,6 @@
 package stepdefs;
 
 import applicationPages.HomePage;
-import io.cucumber.datatable.DataTable;
-import webConnector.WebConnector;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -11,9 +9,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
-import java.util.List;
-import java.util.Map;
+import webConnector.WebConnector;
 
 public class HomePageSteps extends WebConnector {
     private HomePage homePage;
@@ -45,7 +41,7 @@ public class HomePageSteps extends WebConnector {
     }
 
     @And("Verify Page Title {string}")
-    public void verifyPageTitle(String arg0)  {
+    public void verifyPageTitle(String arg0) {
         this.homePage.verifyPageTitle(arg0);
     }
 
@@ -56,7 +52,7 @@ public class HomePageSteps extends WebConnector {
 
     @When("I Click the home button get navigated to the Home page url {string}")
     public void iClickTheHomeButtonGetNavigatedToTheHomePageUrl(String arg0) {
-    this.homePage.iClickTheHomeButtonGetNavigatedToTheHomePageUrl(arg0);
+        this.homePage.iClickTheHomeButtonGetNavigatedToTheHomePageUrl(arg0);
     }
 
     @When("I click on the Home button, it is active status")
@@ -96,7 +92,7 @@ public class HomePageSteps extends WebConnector {
 
     @Then("On the Form page, a form should be visible with one {string} and one {string}")
     public void onTheFormPageAFormShouldBeVisibleWithOneAndOne(String arg0, String arg1) {
-        this.homePage.onTheFormPageAFormShouldBeVisibleWithOneAndOne(arg0,arg1);
+        this.homePage.onTheFormPageAFormShouldBeVisibleWithOneAndOne(arg0, arg1);
     }
 
 
@@ -106,7 +102,7 @@ public class HomePageSteps extends WebConnector {
     }
 
     @When("Enter the Value {string}and Result {string}")
-    public void enterTheValueAndResult(String arg0,String arg1) {
-        this.homePage.enterTheValueAndResult(arg0,arg1);
+    public void enterTheValueAndResult(String arg0, String arg1) {
+        this.homePage.enterTheValueAndResult(arg0, arg1);
     }
 }

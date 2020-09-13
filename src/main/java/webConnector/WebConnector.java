@@ -39,7 +39,6 @@ public class WebConnector {
     }
 
 
-
     public void setUpDriver() {
         String browser = prop.getProperty("browser");
         if (browser == null) {
@@ -87,7 +86,6 @@ public class WebConnector {
     }
 
 
-
     public By getElementWithLocator(String WebElement) {
         String locatorTypeAndValue = prop.getProperty(WebElement);
         String[] locatorTypeAndValueArray = locatorTypeAndValue.split(",");
@@ -118,7 +116,6 @@ public class WebConnector {
     public WebElement FindAnElement(String WebElement) {
         return driver.findElement(getElementWithLocator(WebElement));
     }
-
 
 
     public void waitForCondition(String TypeOfWait, String WebElement, int Time) {
@@ -156,9 +153,6 @@ public class WebConnector {
     private static int maxTry = 3;
 
     private int count = 0;
-
-
-
 
 
     public void assertTrue(boolean condition, String message) {
@@ -302,8 +296,6 @@ public class WebConnector {
             }
         }
     }
-
-
 
 
     public void activeButtonControl(By by, String statu) {

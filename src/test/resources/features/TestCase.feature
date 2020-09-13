@@ -22,7 +22,7 @@ Feature: UITest Scenarios
 
 
     Examples:
-      | value | result |
+      | value   | result         |
       | John    | Hello John!    |
       | Sophia  | Hello Sophia!  |
       | Charlie | Hello Charlie! |
