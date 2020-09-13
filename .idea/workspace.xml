@@ -23,43 +23,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebConnector/webconnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebConnector/webconnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApplicationPages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApplicationPages/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebConnector/webconnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webConnector/WebConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApplicationPages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applicationPages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConstantVariables/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/constantVariables/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Example.Feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/QA_TestCase-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QA_TestCase-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebConnector/webconnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebConnector/webconnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/HomePage/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/HomePage/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-runner.HomePageRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-runner.HomePageRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-runner.HomePageRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-runner.HomePageRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/runner.HomePageRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/runner.HomePageRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-cucumber-reports/homepage/cukejson.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-cucumber-reports/homepage/cukejson.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApplicationPages/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApplicationPages/Homepage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Example.Feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/TestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/TestCase.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/HomePageRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/HomePageRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/testng-cucumber-reports/HomePage/cuketestng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/testng-cucumber-reports/HomePage/cuketestng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QA_TestCase-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebConnector/webconnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/HomePage/cucumber-pretty/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-runner.HomePageRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-runner.HomePageRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/runner.HomePageRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/css/cluecumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/css/cluecumber_custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/css/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/css/jquery.fancybox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/js/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/js/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/js/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-cucumber-reports/homepage/cukejson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApplicationPages/Homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ConstantVariables/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/TestCase.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/AbstractTestNGCucumberParallelTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Default.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/HomePageRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/HomePageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testng-cucumber-reports/HomePage/cuketestng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +138,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -116,7 +159,7 @@
       <recent name="C:\Users\mpektas\Desktop\GitBakalim\cucumberTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Example">
+  <component name="RunManager" selected="TestNG.HomePageRunner">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -168,10 +211,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: UITest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QA_TestCase" />
+      <option name="NAME_FILTER" value="^UITest$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^UITest$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: UITest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verification of value of result" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="QA_TestCase" />
+      <option name="NAME_FILTER" value="^Verification of value of result$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verification of value of result$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verification of value of result" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_TestCase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.HomePageRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Example" />
+        <item itemvalue="TestNG.HomePageRunner" />
+        <item itemvalue="Cucumber Java.Scenario: UITest" />
+        <item itemvalue="Cucumber Java.Scenario: Verification of value of result" />
         <item itemvalue="Cucumber Java.Feature: TestCase" />
+        <item itemvalue="Cucumber Java.Feature: Example" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +291,11 @@
       <workItem from="1600008710937" duration="218000" />
       <workItem from="1600009008542" duration="146000" />
       <workItem from="1600009177000" duration="366000" />
-      <workItem from="1600009569243" duration="4398000" />
+      <workItem from="1600009569243" duration="8335000" />
+      <workItem from="1600017990902" duration="2003000" />
+      <workItem from="1600020024199" duration="135000" />
+      <workItem from="1600020187734" duration="208000" />
+      <workItem from="1600020421363" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600010589089</created>
@@ -204,7 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600010858094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first">
+      <created>1600014060424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600014060424</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first">
+      <created>1600014214332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600014214332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,34 +365,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="784" y="445" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600010440689" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600012462005">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600020395357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462005" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600012462004">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600020395357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462004" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600012462004">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600020395357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462004" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600012462005">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600020395357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462005" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1600009677764">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600009677764" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600010864823">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600014227518">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600010864823" />
-    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1600012049281">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600014227518" />
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1600017629980">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600012049281" />
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600017629980" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600012384528">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

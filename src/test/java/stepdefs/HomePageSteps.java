@@ -1,7 +1,7 @@
 package stepdefs;
 
-import ApplicationPages.Homepage;
-import WebConnector.webconnector;
+import applicationPages.HomePage;
+import webConnector.WebConnector;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -11,12 +11,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class HomePageSteps extends webconnector {
-    private Homepage homePage;
+public class HomePageSteps extends WebConnector {
+    private HomePage homePage;
     private String scenDesc;
 
     public HomePageSteps() {
-        this.homePage = new Homepage();
+        this.homePage = new HomePage();
     }
 
     @Before
@@ -46,7 +46,7 @@ public class HomePageSteps extends webconnector {
     }
 
     @Then("Verify Page Logo is visible")
-    public void verifyPageLogoIsVisible() throws Exception {
+    public void verifyPageLogoIsVisible() {
         this.homePage.verifyPageLogoIsVisible();
     }
 

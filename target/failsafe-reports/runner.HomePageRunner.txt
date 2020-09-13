@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: runner.HomePageRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.118 s <<< FAILURE! - in runner.HomePageRunner
-runScenario(runner.HomePageRunner)  Time elapsed: 27.708 s  <<< FAILURE!
-java.lang.AssertionError: url  assert not equal expected [http://uitest.duodecadits.com/] but found [http://uitest.duodecadits.com/form.html]
-
