@@ -9,18 +9,25 @@ import static WebConnector.webconnector.driver;
 public class Homepage {
     webconnector wc = new webconnector();
 
+    /**
+     * @param url  Method is navigate to given URL
+     */
     public void goToHomePage(String url) {
         driver.get(url);
         wc.waitForCondition("PageLoad", "", 60);
     }
 
 
+    /**
+     * @param arg0 Method is check to given page source title
+     */
     public void verifyPageTitle(String arg0)  {
         wc.assertTrue(wc.isTextPresent(arg0)," not ok" );
         wc.assertTrue(wc.isElementPresent(FORM_BUTTON), "FORM_BUTTON");
         wc.clickObjectBy(FORM_BUTTON, "FORM_BUTTON");
         wc.assertTrue(wc.isTextPresent(arg0)," not ok" );
     }
+
 
     public void verifyPageLogoIsVisible() throws Exception {
         wc.assertTrue(wc.isElementPresent(SITE_LOGO), "SITE_LOGO");

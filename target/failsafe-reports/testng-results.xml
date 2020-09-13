@@ -1,89 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="338" started-at="2020-09-13T15:03:07Z" finished-at="2020-09-13T15:03:08Z">
+  <suite name="Surefire suite" duration-ms="28230" started-at="2020-09-13T16:00:50Z" finished-at="2020-09-13T16:01:19Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="338" started-at="2020-09-13T15:03:07Z" finished-at="2020-09-13T15:03:08Z">
+    <test name="Surefire test" duration-ms="28230" started-at="2020-09-13T16:00:50Z" finished-at="2020-09-13T16:01:19Z">
       <class name="runner.HomePageRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="setUpClass" is-config="true" duration-ms="196" started-at="2020-09-13T15:03:07Z" finished-at="2020-09-13T15:03:08Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="setUpClass" is-config="true" duration-ms="173" started-at="2020-09-13T16:00:50Z" finished-at="2020-09-13T16:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="before()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="before" is-config="true" duration-ms="0" started-at="2020-09-13T15:03:08Z" finished-at="2020-09-13T15:03:08Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="before" is-config="true" duration-ms="1" started-at="2020-09-13T16:00:50Z" finished-at="2020-09-13T16:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="SKIP" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="runScenario" duration-ms="0" started-at="2020-09-13T15:03:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-13T15:03:08Z">
-          <exception class="java.lang.RuntimeException">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="runScenario" duration-ms="27695" started-at="2020-09-13T16:00:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-13T16:01:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UITest"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UITest Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[java.lang.IllegalArgumentException: Not a file or directory: C:\Users\mpektas\Desktop\GitBakalim\cucumberTest\src\test\resources\features\HomePage]]>
+              <![CDATA[url  assert not equal expected [http://uitest.duodecadits.com/] but found [http://uitest.duodecadits.com/form.html]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.IllegalArgumentException: Not a file or directory: C:\Users\mpektas\Desktop\GitBakalim\cucumberTest\src\test\resources\features\HomePage
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.lang.IllegalArgumentException: Not a file or directory: C:\Users\mpektas\Desktop\GitBakalim\cucumberTest\src\test\resources\features\HomePage
-at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
-at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
-at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
-at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
-at cucumber.runtime.model.FeatureLoader.loadFromFeaturePath(FeatureLoader.java:31)
-at cucumber.runtime.model.FeatureLoader.load(FeatureLoader.java:23)
-at cucumber.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:33)
-at io.cucumber.testng.TestNGCucumberRunner.getFeatures(TestNGCucumberRunner.java:106)
-at io.cucumber.testng.TestNGCucumberRunner.provideScenarios(TestNGCucumberRunner.java:88)
-at io.cucumber.testng.AbstractTestNGCucumberTests.scenarios(AbstractTestNGCucumberTests.java:38)
-at runner.AbstractTestNGCucumberParallelTests.scenarios(AbstractTestNGCucumberParallelTests.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-... 27 more
+              <![CDATA[java.lang.AssertionError: url  assert not equal expected [http://uitest.duodecadits.com/] but found [http://uitest.duodecadits.com/form.html]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at WebConnector.webconnector.assertEquals(webconnector.java:400)
+at ApplicationPages.Homepage.iClickTheHomeButtonGetNavigatedToTheHomePageUrl(Homepage.java:42)
+at stepdefs.HomePageSteps.iClickTheHomeButtonGetNavigatedToTheHomePageUrl(HomePageSteps.java:55)
+at ✽.I Click the home button get navigated to the Home page url "http://uitest.duodecadits.com/"(file:src/test/resources/features/TestCase.feature:8)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="after()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="after" is-config="true" duration-ms="1" started-at="2020-09-13T15:03:08Z" finished-at="2020-09-13T15:03:08Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="after" is-config="true" duration-ms="1" started-at="2020-09-13T16:01:18Z" finished-at="2020-09-13T16:01:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="tearDownClass" is-config="true" duration-ms="116" started-at="2020-09-13T15:03:08Z" finished-at="2020-09-13T15:03:08Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.HomePageRunner@5ae9a829]" name="tearDownClass" is-config="true" duration-ms="250" started-at="2020-09-13T16:01:18Z" finished-at="2020-09-13T16:01:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

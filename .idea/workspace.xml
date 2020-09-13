@@ -23,7 +23,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="first">
-      <change beforePath="$PROJECT_DIR$/QA_TestCase_AhmetMelihPektas.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebConnector/webconnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebConnector/webconnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApplicationPages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApplicationPages/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Example.Feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QA_TestCase-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/QA_TestCase-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebConnector/webconnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebConnector/webconnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/HomePage/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/HomePage/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-runner.HomePageRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-runner.HomePageRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-runner.HomePageRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-runner.HomePageRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/runner.HomePageRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/runner.HomePageRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-cucumber-reports/homepage/cukejson.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-cucumber-reports/homepage/cukejson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApplicationPages/Homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApplicationPages/Homepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Example.Feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/TestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/TestCase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/HomePageRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/HomePageRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testng-cucumber-reports/HomePage/cuketestng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/testng-cucumber-reports/HomePage/cuketestng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +99,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -146,7 +188,7 @@
       <workItem from="1600008710937" duration="218000" />
       <workItem from="1600009008542" duration="146000" />
       <workItem from="1600009177000" duration="366000" />
-      <workItem from="1600009569243" duration="1189000" />
+      <workItem from="1600009569243" duration="4398000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600010589089</created>
@@ -155,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600010589089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1600010858094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600010858094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,29 +244,37 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="784" y="445" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600010440689" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600010492470">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600012462005">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600010492470" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600010492470">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462005" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600012462004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600010492470" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600010492469">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462004" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600012462004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600010492469" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600010492470">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462004" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600012462005">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600010492470" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600012462005" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1600009677764">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600009677764" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600010599077">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600010864823">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600010599077" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600010864823" />
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1600012049281">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600012049281" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600012384528">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600012384528" />
   </component>
 </project>

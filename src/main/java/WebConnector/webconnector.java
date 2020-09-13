@@ -57,7 +57,7 @@ public class webconnector {
         switch (browser) {
             case "chrome":
                 System.setProperty("webdriver.chrome.driver", userHomePath + "/lib/chromedriver.exe");
-                ChromeOptions options = new ChromeOptions( );
+                ChromeOptions options = new ChromeOptions();
                 options.addArguments("--start-maximized");
                 options.addArguments("--disable-notifications");
                 options.addArguments("--ignore-certificate-errors");
@@ -65,7 +65,7 @@ public class webconnector {
                 options.addArguments("--no-proxy-server");
                 options.addArguments("--no-sandbox");
                 options.addArguments("--disable-dev-shm-usage");
-                Map<String, Object> prefs = new HashMap<>( );
+                Map<String, Object> prefs = new HashMap<>();
                 prefs.put("credentials_enable_service", false);
                 prefs.put("profile.password_manager_enabled", false);
                 options.setExperimentalOption("prefs", prefs);
@@ -396,11 +396,10 @@ public class webconnector {
     }
 
 
-
-	public void assertEquals (String condition1,String contions2,String message){
-		Assert.assertEquals(condition1,contions2,message +"  assert not equal");
-		System.out.println(condition1 + "  =  " +  contions2 +" assert equal ");
-	}
+    public void assertEquals(String condition1, String contions2, String message) {
+        Assert.assertEquals(condition1, contions2, message + "  assert not equal");
+        System.out.println(condition1 + "  =  " + contions2 + " assert equal ");
+    }
 
 
     protected void assertTrueLoop(boolean condition, String message) {
@@ -531,7 +530,7 @@ public class webconnector {
         highlightElement2(by);
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-        Text =getElementBy(by).getText().trim();
+        Text = getElementBy(by).getText().trim();
         return Text;
     }
 
@@ -558,13 +557,13 @@ public class webconnector {
         if (by == null && element == null) {
             System.out.println(element + "   " + message + "   " + "not click");
         }
-            try {
-                element.click();
-                System.out.println(message + "     " + "click");
-            } catch (Exception e) {
-                System.out.println(e + "     " + "not click");
-            }
+        try {
+            element.click();
+            System.out.println(message + "     " + "click");
+        } catch (Exception e) {
+            System.out.println(e + "     " + "not click");
         }
+    }
 
     protected void clickObjectByB(By by, String message) {
         WebElement element = getElementBy(by);
@@ -721,36 +720,36 @@ public class webconnector {
     }
 
     public String getCurrentUrl() {
-    	String text ;
-		text =driver.getCurrentUrl().trim();
-        return text ;
+        String text;
+        text = driver.getCurrentUrl().trim();
+        return text;
     }
 
     public int responseCodeCheck() {
         int respCode = 200;
         HttpURLConnection huc = null;
-            String url = getCurrentUrl();
-            if (url == null || url.isEmpty()) {
-                System.out.println("URL is either not configured for anchor tag or it is empty");
+        String url = getCurrentUrl();
+        if (url == null || url.isEmpty()) {
+            System.out.println("URL is either not configured for anchor tag or it is empty");
+        }
+        if (!url.startsWith(url)) {
+            System.out.println("URL belongs to another domain, skipping it.");
+        }
+        try {
+            huc = (HttpURLConnection) (new URL(url).openConnection());
+            huc.setRequestMethod("HEAD");
+            huc.connect();
+            respCode = huc.getResponseCode();
+            if (respCode >= 400) {
+                System.out.println(url + " is a broken link" + "  response code is   " + respCode);
+            } else {
+                System.out.println(url + " is a valid link" + "  response code is   " + respCode);
             }
-            if (!url.startsWith(url)) {
-                System.out.println("URL belongs to another domain, skipping it.");
-            }
-            try {
-                huc = (HttpURLConnection) (new URL(url).openConnection());
-                huc.setRequestMethod("HEAD");
-                huc.connect();
-                respCode = huc.getResponseCode();
-                if (respCode >= 400) {
-                    System.out.println(url + " is a broken link"+ "  response code is   " + respCode);
-                } else {
-                    System.out.println(url + " is a valid link"+ "  response code is   " + respCode);
-                }
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return respCode;
     }
 
@@ -776,16 +775,6 @@ public class webconnector {
         System.out.println("Java Script" + message);
     }
 
-    public boolean isElementPresentWithoutHighlight(By by) {
-        try {
-            getElementBy(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            System.out.println(e.getMessage());
-            System.out.println(e.getMessage());
-            return false;
-        }
-    }
 
     public void activeButtonControl(By by, String statu) {
         WebElement aa = getElementBy(by);
@@ -796,8 +785,6 @@ public class webconnector {
             Assert.fail("Button" + c_aa + "  found. But expected " + statu);
         }
     }
-
-
 
 
     public boolean isElementPresent(By by) {
@@ -812,15 +799,6 @@ public class webconnector {
         }
     }
 
-    public WebElement highlightElement(By locator) {
-        WebElement elem = driver.findElement(locator);
-        // draw a border around the found element
-        if (driver instanceof JavascriptExecutor) {
-            ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3x solid red'", elem);
-        }
-        System.out.println(elem);
-        return elem;
-    }
 
     private WebElement highlightElement2(By locator) {
         WebElement elem = driver.findElement(locator);

@@ -6,7 +6,7 @@
       <class name="runner.HomePageRunner">
         <methods>
           <include name="after"/>
-          <include name="runScenario"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="before"/>
           <include name="setUpClass"/>

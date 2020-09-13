@@ -21,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
   <meta name="description" content="Cluecumber Report Plugin version 1.8.0 - Step Summary"> 
   <meta name="author" content="Cluecumber Report Plugin version 1.8.0"> 
-  <title>Step Summary - 2020/09/13 18:03:09</title> 
+  <title>Step Summary - 2020/09/13 19:01:20</title> 
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> 
   <link rel="stylesheet" href="css/cluecumber.css" type="text/css"> 
   <link rel="stylesheet" href="css/cluecumber_custom.css"> 
@@ -63,21 +63,112 @@
         var ctx = canvas.getContext("2d");
         var chart = new Chart(ctx, eval({
   "data": {
-    "labels": [],
+    "labels": [
+      "The following text should be visible on the Home page in {}",
+      "The following text should be visible on the Home page in \u003cp\u003e tag:{}",
+      "I Click the home button get navigated to the Home page url {}",
+      "I click on the Form button, it is active status",
+      "User navigates to url {}",
+      "Verify Page Title {}",
+      "Verify Page Logo is visible",
+      "I click on the UI Testing button, I should get navigated to Home page url {}",
+      "On the Form page, a form should be visible with one {} and one {}",
+      "I click on the Home button, it is active status",
+      "I click on the Error button, it take a {} HTTP response code",
+      "I Click the Form button get navigated to the Form page url {}"
+    ],
     "datasets": [
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)"
+        ],
         "label": "passed"
       },
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)"
+        ],
         "label": "failed"
       },
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ],
         "label": "skipped"
       }
     ]
@@ -93,7 +184,7 @@
           "stacked": true,
           "scaleLabel": {
             "display": true,
-            "labelString": "0 Step(s)"
+            "labelString": "12 Step(s)"
           },
           "stepSize": 0.0
         }
@@ -109,7 +200,7 @@
             "display": true,
             "labelString": "Number of Scenarios"
           },
-          "stepSize": 0.0
+          "stepSize": 1.0
         }
       ]
     }
@@ -164,7 +255,7 @@
      <li class="nav-item"> <a class="nav-link" href="pages/scenario-sequence.html">Scenario Sequence</a> </li> 
      <li class="nav-item"> <a class="nav-link" href="index.html">All Scenarios</a> </li> 
     </ul> 
-    <span class="text-light">2020/09/13 18:03:09</span> 
+    <span class="text-light">2020/09/13 19:01:20</span> 
    </div> 
   </nav> 
   <main role="main" class="container"> 
@@ -192,9 +283,9 @@
        </div> 
        <div class="card-body"> 
         <ul class="list-group list-group-flush" data-cluecumber-item="step-summary"> 
-         <li class="list-group-item">0 Step(s) in<br> 0 Scenario(s) </li> 
+         <li class="list-group-item">12 Step(s) in<br> 1 Scenario(s) </li> 
         </ul> 
-        <li class="list-group-item"> 0 <i class="text-success cluecumber-icon icon-passed" data-toggle="tooltip" title="passed"><span style="display:none">passed</span></i> 0 <i class="text-danger cluecumber-icon icon-failed" data-toggle="tooltip" title="failed"><span style="display:none">failed</span></i> 0 <i class="text-warning cluecumber-icon icon-skipped" data-toggle="tooltip" title="skipped"><span style="display:none">skipped</span></i> </li> 
+        <li class="list-group-item"> 0 <i class="text-success cluecumber-icon icon-passed" data-toggle="tooltip" title="passed"><span style="display:none">passed</span></i> 1 <i class="text-danger cluecumber-icon icon-failed" data-toggle="tooltip" title="failed"><span style="display:none">failed</span></i> 0 <i class="text-warning cluecumber-icon icon-skipped" data-toggle="tooltip" title="skipped"><span style="display:none">skipped</span></i> </li> 
        </div> 
       </div> 
      </div> 
@@ -220,6 +311,126 @@
           </tr> 
          </thead> 
          <tbody> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.theFollowingTextShouldBeVisibleOnTheHomePageIn(String)"> <a href="pages/step-scenarios/step_025536902.html">The following text should be visible on the Home page in {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.theFollowingTextShouldBeVisibleOnTheHomePageInPTag(String)"> <a href="pages/step-scenarios/step_1620345892.html">The following text should be visible on the Home page in </a><p><a href="pages/step-scenarios/step_1620345892.html"> tag:{}</a>  </p></span></td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.iClickTheHomeButtonGetNavigatedToTheHomePageUrl(String)"> <a href="pages/step-scenarios/step_1970560357.html">I Click the home button get navigated to the Home page url {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 03s 825ms</td> 
+           <td class="text-right small">0m 03s 825ms</td> 
+           <td class="text-right small">0m 03s 825ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.iClickOnTheFormButtonItIsActiveStatus()"> <a href="pages/step-scenarios/step_0589249663.html">I click on the Form button, it is active status</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.userNavigatesToUrl(String)"> <a href="pages/step-scenarios/step_01129078495.html">User navigates to url {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 766ms</td> 
+           <td class="text-right small">0m 00s 766ms</td> 
+           <td class="text-right small">0m 00s 766ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.verifyPageTitle(String)"> <a href="pages/step-scenarios/step_1499440714.html">Verify Page Title {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 04s 137ms</td> 
+           <td class="text-right small">0m 04s 137ms</td> 
+           <td class="text-right small">0m 04s 137ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.verifyPageLogoIsVisible()"> <a href="pages/step-scenarios/step_01179316608.html">Verify Page Logo is visible</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 05s 219ms</td> 
+           <td class="text-right small">0m 05s 219ms</td> 
+           <td class="text-right small">0m 05s 219ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.iClickOnTheUITestingButtonIShouldGetNavigatedToHomePageUrl(String)"> <a href="pages/step-scenarios/step_1296728396.html">I click on the UI Testing button, I should get navigated to Home page url {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.onTheFormPageAFormShouldBeVisibleWithOneAndOne(String,String)"> <a href="pages/step-scenarios/step_01526675556.html">On the Form page, a form should be visible with one {} and one {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.iClickOnTheHomeButtonItIsActiveStatus()"> <a href="pages/step-scenarios/step_01816016228.html">I click on the Home button, it is active status</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.iClickOnTheErrorButtonItTakeAHTTPResponseCode(int)"> <a href="pages/step-scenarios/step_01137299048.html">I click on the Error button, it take a {} HTTP response code</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
+          <tr> 
+           <td class="text-left"> <span data-toggle="tooltip" title="HomePageSteps.iClickTheFormButtonGetNavigatedToTheFormPageUrl(String)"> <a href="pages/step-scenarios/step_04568955.html">I Click the Form button get navigated to the Form page url {}</a> </span> </td> 
+           <td class="text-right"><strong>1</strong></td> 
+           <td class="text-right">0</td> 
+           <td class="text-right">1</td> 
+           <td class="text-right">0</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+           <td class="text-right small">0m 00s 000ms</td> 
+          </tr> 
          </tbody> 
         </table> 
        </div> 
@@ -230,7 +441,7 @@
   </main> 
   <footer class="footer navbar-dark bg-dark"> 
    <div class="container-fluid"> 
-    <span>Cluecumber Report Plugin version 1.8.0 - Report generated on 2020/09/13 18:03:09.</span> 
+    <span>Cluecumber Report Plugin version 1.8.0 - Report generated on 2020/09/13 19:01:20.</span> 
    </div> 
   </footer>   
  </body>

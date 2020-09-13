@@ -15,6 +15,21 @@ Feature: UITest Scenarios
     And The following text should be visible on the Home page in <p> tag:"This site is dedicated to perform some exercises and demonstrate automated web testing."
     Then On the Form page, a form should be visible with one "input box" and one "submit button"
 
+  @REQ-UI-12
+  Scenario Outline: Verification of value of result
+
+    Given Open the form page "http://uitest.duodecadits.com/form.html"
+
+    When Enter the Value "<value>"and Result "<result>"
+
+
+    Examples:
+      | value | result |
+      | John    | Hello John!    |
+      | Sophia  | Hello Sophia!  |
+      | Charlie | Hello Charlie! |
+      | Emily   | Hello Emily!   |
+
 
 
 
