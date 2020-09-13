@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.QATechTesting</groupId>
-  <artifactId>QA_TestCase_AhmetMelihPektas</artifactId>
+  <artifactId>QA_TestCase</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>QA_TestCase_AhmetMelihPektas</name>
+  <name>QA_TestCase</name>
   <url>http://maven.apache.org</url>
 
   <properties>
