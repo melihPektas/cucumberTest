@@ -23,85 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebConnector/webconnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webConnector/WebConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApplicationPages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applicationPages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConstantVariables/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/constantVariables/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_TestCase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA_TestCase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/applicationPages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applicationPages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/AbstractTestNGCucumberParallelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AbstractTestNGCucumberParallelTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/QA_TestCase-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebConnector/webconnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/HomePage/cucumber-pretty/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-runner.HomePageRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-runner.HomePageRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/runner.HomePageRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/css/cluecumber.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/css/cluecumber_custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/css/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/css/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/css/jquery.fancybox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/font/cluecumber.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/js/Chart.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/js/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/js/jquery.fancybox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/feature-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/scenario-sequence.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/step-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-report/pages/tag-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-cucumber-reports/homepage/cukejson.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApplicationPages/Homepage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ConstantVariables/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/TestCase.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/AbstractTestNGCucumberParallelTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Default.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/HomePageRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/HomePageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/testng-cucumber-reports/HomePage/cuketestng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +44,16 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -155,11 +96,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="runner" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mpektas\Desktop\GitBakalim\cucumberTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verification of value of result">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -270,9 +214,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageRunner" />
-        <item itemvalue="Cucumber Java.Scenario: UITest" />
         <item itemvalue="Cucumber Java.Scenario: Verification of value of result" />
+        <item itemvalue="Cucumber Java.Scenario: UITest" />
+        <item itemvalue="TestNG.HomePageRunner" />
         <item itemvalue="Cucumber Java.Feature: TestCase" />
         <item itemvalue="Cucumber Java.Feature: Example" />
       </list>
@@ -295,7 +239,11 @@
       <workItem from="1600017990902" duration="2003000" />
       <workItem from="1600020024199" duration="135000" />
       <workItem from="1600020187734" duration="208000" />
-      <workItem from="1600020421363" duration="317000" />
+      <workItem from="1600020421363" duration="1582000" />
+      <workItem from="1600022034313" duration="301000" />
+      <workItem from="1600022365750" duration="301000" />
+      <workItem from="1600022693377" duration="6870000" />
+      <workItem from="1600029815956" duration="3829000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600010589089</created>
@@ -325,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600014214332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first">
+      <created>1600020845168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020845168</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,10 +308,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600009728763" />
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1600028737848">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600028737848" />
     <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600009535055">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600009535055" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1600022667212">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600022667212" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600008926997">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -365,34 +328,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="784" y="445" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600010440689" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600020395357">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600029789526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600020395357">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600029789526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600020395357">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600029789526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600020395357">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600029789526">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600020395357" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1600009677764">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600009677764" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600014227518">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600020913857">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600014227518" />
-    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1600017629980">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600020913857" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600022667212">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600017629980" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600022667212" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600027992346">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600027992346" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600022832913">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600022832913" />
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1600029443084">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600029443084" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600012384528">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

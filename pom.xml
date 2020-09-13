@@ -78,6 +78,18 @@
            <version>6.14.3</version>
            <scope>compile</scope>
        </dependency>
+       <dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>4.12</version>
+           <scope>test</scope>
+       </dependency>
+       <dependency>
+           <groupId>junit</groupId>
+           <artifactId>junit</artifactId>
+           <version>4.12</version>
+           <scope>test</scope>
+       </dependency>
    </dependencies>
   <build>
         <plugins>
@@ -105,6 +117,7 @@
 					<expandStepHooks>true</expandStepHooks>
 				</configuration>
 			</plugin>
+
 		<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -124,7 +137,6 @@
 							<goal>integration-test</goal>
 						</goals>
 						<configuration>
-
 							<includes>
 									runners -->
 								<include>**/*Runner.java</include>

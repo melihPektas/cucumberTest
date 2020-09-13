@@ -17,9 +17,7 @@ Feature: UITest Scenarios
 
   @REQ-UI-12
   Scenario Outline: Verification of value of result
-
     Given Open the form page "http://uitest.duodecadits.com/form.html"
-
     When Enter the Value "<value>"and Result "<result>"
 
 

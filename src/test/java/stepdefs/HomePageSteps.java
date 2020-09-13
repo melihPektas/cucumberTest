@@ -1,6 +1,7 @@
 package stepdefs;
 
 import applicationPages.HomePage;
+import io.cucumber.datatable.DataTable;
 import webConnector.WebConnector;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
@@ -10,6 +11,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+import java.util.List;
+import java.util.Map;
 
 public class HomePageSteps extends WebConnector {
     private HomePage homePage;
@@ -102,7 +106,7 @@ public class HomePageSteps extends WebConnector {
     }
 
     @When("Enter the Value {string}and Result {string}")
-    public void enterTheValueAndResult(String arg0, String arg1) {
+    public void enterTheValueAndResult(String arg0,String arg1) {
         this.homePage.enterTheValueAndResult(arg0,arg1);
     }
 }

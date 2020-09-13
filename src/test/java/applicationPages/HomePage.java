@@ -12,6 +12,7 @@ public class HomePage {
     /**
      * @param url Method is navigate to given URL
      */
+
     public void goToHomePage(String url) {
         driver.get(url);
         wc.waitForCondition("PageLoad", "", 60);
@@ -131,7 +132,7 @@ public class HomePage {
 
     /**
      * @param arg0 Method is write to  value
-     * @param arg1 Method is verify to
+     * @param arg1 Method is verify to result
      */
     public void enterTheValueAndResult(String arg0, String arg1) {
         wc.assertTrue(wc.isElementPresent(INPUT), "INPUT");
