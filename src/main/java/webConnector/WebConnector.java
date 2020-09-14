@@ -146,10 +146,6 @@ public class WebConnector {
     }
 
 
-    private static int index = 0;
-    private static int loginReTryCount = 0;
-    private static int loginMaxReTryCount = 2;
-    private static int loginSleepMs = 5000;
     private static int maxTry = 3;
 
     private int count = 0;
@@ -157,7 +153,6 @@ public class WebConnector {
 
     public void assertTrue(boolean condition, String message) {
         Assert.assertTrue(condition, message + "    is not found");
-        System.out.println(condition + "Assert equal to true");
     }
 
 
@@ -203,7 +198,6 @@ public class WebConnector {
         }
         try {
             element.click();
-            System.out.println(message + "     " + "click");
         } catch (Exception e) {
             System.out.println(e + "     " + "not click");
         }
@@ -289,22 +283,20 @@ public class WebConnector {
             try {
                 long start = System.currentTimeMillis();
                 Thread.sleep(time);
-                //System.out.println("Sleep time in ms = " + (System.currentTimeMillis() - start) + "  " + Thread.currentThread().getName() + "  " + i);
             } catch (InterruptedException e) {
-
                 System.out.println(e.getMessage());
             }
         }
     }
 
 
-    public void activeButtonControl(By by, String statu) {
+    public void activeButtonControl(By by, String status) {
         WebElement aa = getElementBy(by);
         String c_aa = aa.getAttribute("class");
-        if (c_aa.contains("inactive") && statu.equalsIgnoreCase("active")) {
-            Assert.fail("Button" + c_aa + "  found. But expected " + statu);
-        } else if (c_aa.contains("active") && statu.equalsIgnoreCase("inactive")) {
-            Assert.fail("Button" + c_aa + "  found. But expected " + statu);
+        if (c_aa.contains("inactive") && status.equalsIgnoreCase("active")) {
+            Assert.fail("Button" + c_aa + "  found. But expected " + status);
+        } else if (c_aa.contains("active") && status.equalsIgnoreCase("inactive")) {
+            Assert.fail("Button" + c_aa + "  found. But expected " + status);
         }
     }
 
@@ -313,7 +305,6 @@ public class WebConnector {
         try {
             getElementBy(by);
             highlightElement2(by);
-            System.out.println("is element present");
             return true;
         } catch (NoSuchElementException e) {
             System.out.println(e.getMessage());

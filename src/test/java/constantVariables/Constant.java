@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 
 public class Constant {
 
-    public static final By TITLE = By.xpath("/html//title[.='UI Testing Site']");
     public static final By UI_TESTING_BUTTON = By.cssSelector("a#site");
     public static final By SITE_LOGO = By.cssSelector("img#dh_logo");
     public static final By HOME_BUTTON = By.cssSelector("#home");

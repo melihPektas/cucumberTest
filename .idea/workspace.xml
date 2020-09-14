@@ -22,19 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
+    <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="fix README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA_TestCase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA_TestCase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webConnector/WebConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webConnector/WebConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/applicationPages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/applicationPages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/AbstractTestNGCucumberParallelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AbstractTestNGCucumberParallelTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/constantVariables/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/constantVariables/Constant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../borusan-cat-web_tr" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,6 +86,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -103,16 +96,14 @@
       <recent name="C:\Users\mpektas\Desktop\GitBakalim\cucumberTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verification of value of result">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: TestCase">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,10 +205,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: TestCase" />
         <item itemvalue="Cucumber Java.Scenario: Verification of value of result" />
         <item itemvalue="Cucumber Java.Scenario: UITest" />
         <item itemvalue="TestNG.HomePageRunner" />
-        <item itemvalue="Cucumber Java.Feature: TestCase" />
         <item itemvalue="Cucumber Java.Feature: Example" />
       </list>
     </recent_temporary>
@@ -243,7 +234,8 @@
       <workItem from="1600022034313" duration="301000" />
       <workItem from="1600022365750" duration="301000" />
       <workItem from="1600022693377" duration="6870000" />
-      <workItem from="1600029815956" duration="3829000" />
+      <workItem from="1600029815956" duration="4565000" />
+      <workItem from="1600066764668" duration="4922000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600010589089</created>
@@ -280,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600020845168</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix README.md">
+      <created>1600033874055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600033874055</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix README.md">
+      <created>1600034015284</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600034015284</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="fix README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600009728763">
@@ -316,42 +323,54 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="689" y="315" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600009535055" />
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1600022667212">
+    <state x="707" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600066838160">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600022667212" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600008926997">
+    <state x="707" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1600066838160" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1600033938287">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600008926997" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600033938287" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600060204078">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1600060204078" />
     <state x="784" y="445" key="Github.CreateGistDialog" timestamp="1600010440689">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="784" y="445" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600010440689" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600029789526">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2517" height="285" key="GridCell.Tab.0.bottom" timestamp="1600072472883">
+      <screen x="-394" y="-1080" width="2560" height="1050" />
     </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600029789526">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2517" height="285" key="GridCell.Tab.0.center" timestamp="1600072472883">
+      <screen x="-394" y="-1080" width="2560" height="1050" />
     </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600029789526">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2517" height="285" key="GridCell.Tab.0.left" timestamp="1600072472883">
+      <screen x="-394" y="-1080" width="2560" height="1050" />
     </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600029789526">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="2517" height="285" key="GridCell.Tab.0.right" timestamp="1600072472883">
+      <screen x="-394" y="-1080" width="2560" height="1050" />
     </state>
+    <state width="2517" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
     <state x="440" y="99" key="SettingsEditor" timestamp="1600009677764">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600009677764" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600020913857">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600034031568">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600020913857" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600034031568" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600022667212">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
