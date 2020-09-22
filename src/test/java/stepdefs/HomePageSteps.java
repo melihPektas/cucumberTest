@@ -9,12 +9,14 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import webConnector.WebConnector;
 
 public class HomePageSteps extends WebConnector {
     private HomePage homePage;
     private String scenDesc;
-
+private DesiredCapabilities capabilities;
     public HomePageSteps() {
         this.homePage = new HomePage();
     }
@@ -22,7 +24,9 @@ public class HomePageSteps extends WebConnector {
     @Before
     public void before(Scenario scenario) {
         this.scenDesc = scenario.getName();
-        setUpDriver();
+        capabilities = new DesiredCapabilities().chrome();
+        capabilities.setPlatform(Platform.getCurrent());
+        setUpDriver(capabilities.getPlatform());
     }
 
     @After

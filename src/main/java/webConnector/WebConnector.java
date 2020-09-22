@@ -22,6 +22,9 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import static org.openqa.selenium.Platform.WIN10;
+import static org.openqa.selenium.Platform.WINDOWS;
+
 public class WebConnector {
 
     public static WebDriver driver = null;
@@ -29,6 +32,7 @@ public class WebConnector {
     public static Properties prop = new Properties();
     public static String userHomePath = "./src/test";
     private String Text;
+
 
     public WebConnector() {
         try {
@@ -39,14 +43,17 @@ public class WebConnector {
     }
 
 
-    public void setUpDriver() {
+    public void setUpDriver(Platform platform) {
         String browser = prop.getProperty("browser");
         if (browser == null) {
             browser = "chrome";
         }
         switch (browser) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", userHomePath + "/lib/chromedriver.exe");
+                if (platform == WINDOWS){
+                    System.setProperty("webdriver.chrome.driver", userHomePath + "/lib/chromedriver.exe");
+                }
+                System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--start-maximized");
                 options.addArguments("--disable-notifications");
