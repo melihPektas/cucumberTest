@@ -99,7 +99,6 @@ private DesiredCapabilities capabilities;
         this.homePage.onTheFormPageAFormShouldBeVisibleWithOneAndOne(arg0, arg1);
     }
 
-
     @Given("Open the form page {string}")
     public void openTheFormPage(String arg0) {
         this.homePage.openTheFormPage(arg0);

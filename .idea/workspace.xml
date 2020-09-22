@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -22,11 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="added platform">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="fix README.md">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webConnector/WebConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webConnector/WebConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/HomePageRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -84,10 +84,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -98,13 +99,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Verification of value of result">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,8 +171,6 @@
       </method>
     </configuration>
     <configuration name="Scenario: Verification of value of result" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="adopt-openjdk-1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" />
       <option name="GLUE" value="stepdefs" />
@@ -206,24 +207,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Cucumber Java.Feature: Example" />
-      <item itemvalue="Cucumber Java.Feature: TestCase" />
-      <item itemvalue="Cucumber Java.Scenario: UITest" />
-      <item itemvalue="Cucumber Java.Scenario: Verification of value of result" />
-      <item itemvalue="TestNG.HomePageRunner" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Verification of value of result" />
+        <item itemvalue="Cucumber Java.Feature: TestCase" />
+        <item itemvalue="Cucumber Java.Scenario: UITest" />
         <item itemvalue="TestNG.HomePageRunner" />
+        <item itemvalue="Cucumber Java.Feature: Example" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1f51a058-7d92-437d-8f9d-a51d15c0f534" name="Default Changelist" comment="" />
@@ -246,10 +240,6 @@
       <workItem from="1600022693377" duration="6870000" />
       <workItem from="1600029815956" duration="4565000" />
       <workItem from="1600066764668" duration="4922000" />
-      <workItem from="1600769207536" duration="207000" />
-      <workItem from="1600769511299" duration="189000" />
-      <workItem from="1600769712568" duration="743000" />
-      <workItem from="1600770545495" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600010589089</created>
@@ -322,23 +312,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="fix README.md" />
-    <MESSAGE value="added platform" />
-    <option name="LAST_COMMIT_MESSAGE" value="added platform" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="184" key="#Plugins" timestamp="1600769882322">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="440" y="184" key="#Plugins/0.23.1680.1027@0.23.1680.1027" timestamp="1600769882322" />
-    <state x="328" y="118" key="#Project_Structure" timestamp="1600769578566">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="328" y="118" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1600769578566" />
-    <state x="362" y="199" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600770700181">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="414" y="180" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600009728763">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600009728763" />
-    <state x="362" y="199" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1600770700181" />
     <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1600028737848">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -351,10 +331,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="707" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1600066838160" />
-    <state x="417" y="112" key="CommitChangelistDialog2" timestamp="1600773679481">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="417" y="112" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1600773679481" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1600033938287">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -367,64 +343,39 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="784" y="445" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600010440689" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1600773679571">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1600774735641">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="2517" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600774735641" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1600773679571" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1600773679570">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1600774735641">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="2517" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600774735641" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1600773679570" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1600773679569">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1600774735641">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="2517" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600774735641" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1600773679569" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1600773679570">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1600774735641">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="2517" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-394.-1080.2560.1050@-394.-1080.2560.1050" timestamp="1600072472883" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600068502220" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600774735641" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1600029789526" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1600773679570" />
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom" timestamp="1600771318550">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="440" y="99" key="SettingsEditor" timestamp="1600774595816">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1600771318550" />
-    <state width="1638" height="346" key="GridCell.Tab.1.center" timestamp="1600771318549">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1600771318549" />
-    <state width="1638" height="346" key="GridCell.Tab.1.left" timestamp="1600771318549">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1600771318549" />
-    <state width="1638" height="346" key="GridCell.Tab.1.right" timestamp="1600771318550">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1600771318550" />
-    <state x="378" y="198" key="Maven.ArtifactSearchDialog" timestamp="1600771594021">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="378" y="198" key="Maven.ArtifactSearchDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1600771594021" />
-    <state x="385" y="120" key="SettingsEditor" timestamp="1600770723937">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
+    <state x="440" y="99" key="SettingsEditor/0.0.1920.1050/-394.-1080.2560.1050@0.0.1920.1050" timestamp="1600774595816" />
     <state x="440" y="99" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600009677764" />
-    <state x="385" y="120" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1600770723937" />
-    <state x="483" y="275" key="Vcs.Push.Dialog.v2" timestamp="1600773638198">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1600034031568">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600034031568" />
-    <state x="483" y="275" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1600773638198" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600022667212">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
